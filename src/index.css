@@ -28,7 +28,7 @@ body {
 }
 
 .btn {
-  display: inline-block;
+  display: inline-block;  /* It takes up required width Required width */
   background: #000;
   color: #fff;
   border: none;
@@ -39,6 +39,10 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+} 
+
+.btn:focus {
+  outline: none;
 }
 
 .task {
